@@ -28,8 +28,6 @@ The observer pattern is employed to facilitate modular and extensible output pro
 
 ## Results
 
-## Output to Screen
-
 The provided `OutputToScreen` module serves as a demonstration of the application's capabilities. It displays relevant information extracted from the decoded frames, including Ethernet addresses, frame length, timestamps, and protocol-specific details such as IP addresses, ports, and protocol types.
 
 ### Example Output
