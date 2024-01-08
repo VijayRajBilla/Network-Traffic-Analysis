@@ -26,7 +26,7 @@ The decoding process is designed to be dynamic and extensible. The `_attach_prot
 
 The observer pattern is employed to facilitate modular and extensible output processing. The `PacketSniffer` class acts as a subject, and output modules (observers) register themselves to receive updates on decoded frames. This allows for easy addition of new output modules without modifying the core sniffer logic.
 
-# Results
+## Results
 
 ## Output to Screen
 
@@ -61,7 +61,7 @@ The provided `OutputToScreen` module serves as a demonstration of the applicatio
 
 This example output demonstrates the decoding of an Ethernet frame containing an IPv4 packet with a TCP payload. The displayed information includes Ethernet addresses, IPv4 addresses, TCP ports, sequence numbers, acknowledgment numbers, flags, window sizes, checksums, and more.
 
-# Conclusion
+## Conclusion
 
 The packet sniffer provides a flexible and extensible platform for capturing and decoding Ethernet frames. Its modular design allows for the easy addition of new protocols and output modules, making it a valuable tool for network analysis and troubleshooting. Developers can extend its functionality further by implementing additional protocols or custom output modules to suit specific requirements.
 ## Usage
